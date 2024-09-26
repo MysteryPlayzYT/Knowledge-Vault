@@ -13,37 +13,85 @@
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
+        "name":" ",
         "price": 290,
         "image": "image/3.png"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
+        "name":" ",
         "price": 200,
         "image": "image/4.png"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
+        "name":" ",
         "price": 300,
         "image": "image/5.png"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
+        "name":" ",
         "price": 200,
         "image": "image/6.png"
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
+        "name":" ",
         "price": 200,
         "image": "image/7.png"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
+        "name":" ",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" It starts with Us",
+        "price": 200,
+        "image": ""
+    },
+    {
+        "id": 10,
+        "name":" ",
+        "price": 250,
+        "image": ""
+    },
+    {
+        "id": 11,
+        "name":" ",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 12,
+        "name":" ",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 13,
+        "name":" ",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" ",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" ",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" ",
         "price": 200,
         "image": "image/8.png"
     }
