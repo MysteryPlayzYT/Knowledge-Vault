@@ -15,67 +15,67 @@
         "id": 3,
         "name":"BEATING THE STREET ",
         "price": 290,
-        "image": "image/BEATING THE STREET"
+        "image": "image/BEATING THE STREET.jpg"
     },
     {
         "id": 4,
         "name":" Better Small talk ",
         "price": 200,
-        "image": "image/"
+        "image": "image/Better Small Talk.jpg"
     },
     {
         "id": 5,
-        "name":" ",
+        "name":" Data Structure and Algorithmic Thinking with Python ",
         "price": 300,
-        "image": "image/"
+        "image": "image/Data Structure and Algorithmic Thinking with Python.jpg"
     },
     {
         "id": 6,
-        "name":" ",
+        "name":" Ikigai ",
         "price": 200,
-        "image": "image/"
+        "image": "image/Ikigai.jfif"
     },
     {
         "id": 7,
-        "name":" ",
+        "name":" Python Programming ",
         "price": 200,
-        "image": ""
+        "image": "image/Python Programming.jpg"
     },
     {
         "id": 8,
-        "name":" ",
+        "name":" Rich Dad and poor Dad",
         "price": 200,
-        "image": ""
+        "image": "image/Rich Dad and poor Dad.jpg"
     },
     {
         "id": 9,
-        "name":" ",
+        "name":" Rich Dad's CASHFLOW Quadrant",
         "price": 200,
-        "image": ""
+        "image": "image/Rich Dad's CASHFLOW Quadrant.jpg"
     },
     {
         "id": 10,
-        "name":" ",
+        "name":"Something I Never Told You ",
         "price": 250,
-        "image": ""
+        "image": "image/Something I Never Told You.jpg"
     },
     {
         "id": 11,
-        "name":" ",
+        "name":" The Lean Startup",
         "price": 290,
-        "image": ""
+        "image": "image/The Lean Startup.jpg"
     },
     {
         "id": 12,
-        "name":" ",
+        "name":" To Kill a Mockingbird",
         "price": 200,
-        "image": ""
+        "image": "image/To Kill a Mockingbird.jpg"
     },
     {
         "id": 13,
-        "name":" ",
+        "name":"Twisted LOVE ",
         "price": 300,
-        "image": ""
+        "image": "image/Twisted LOVE.jpg"
     },
     {
         "id": 14,
