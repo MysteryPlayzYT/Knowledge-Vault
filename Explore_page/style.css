@@ -23,22 +23,12 @@ ol {
     list-style-type: none;
     display: flex;
 }
-.bg-img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url(/images/space.jpg) no-repeat fixed center;
-    background-size: cover;
-    animation: scaling 60s linear infinite;
-}
   a {
     position: relative;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 0.5px;
     padding: 0 10px;
   }
