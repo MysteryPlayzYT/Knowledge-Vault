@@ -213,3 +213,72 @@ footer a {
     color: greenyellow;
     text-decoration: none;
 }
+
+.flip-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-front {
+    background-color: #ffe5d4;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #5297ac;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+

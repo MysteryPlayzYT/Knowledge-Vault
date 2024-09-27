@@ -1,0 +1,33 @@
+/* Basic styling for the page and dropdown */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dropdown-container {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+select:hover {
+    border-color: #888;
+}

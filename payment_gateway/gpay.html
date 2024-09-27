@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment GPay</title>
+    <link rel="stylesheet" href="./gpay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="gpay.js"></script>
+<body>
+
+    <section>
+        <h1>KNOWLEDGE VAULT</h1>
+        <div class="form">
+            <div class="flex m20">
+                <label>Full Name*</label>
+                <input type="text" name="name" placeholder="Full Name" class="m10 name">
+            </div>
+            <div class="flex m20">
+                <label>Contact Number:(With ISD)*</label>
+                <input type="text" name="phone" placeholder="Ex- +xxxxxxxx" class="m10 number">
+            </div>
+            <div class="flex m20">
+                <label>Email*</label>
+                <input type="email" name="email" placeholder="Email" class="m10 email">
+            </div>
+            <div class="flex m20">
+
+                <button class="generate_qr">NEXT</button>
+            </div>
+        </div>
+        <div class="qr_code m20">
+            <p>Scan the QR Code with any UPI App and pay the amount.</p>
+            <center><img src="./Images/Gpay.jpg" alt="QR CODE" class="get_qr m10"></center>
+            <center><img src="./Images/google-pay.png" class="im m10"></center>
+            <div class="flex m20">
+                <label>UTR/REFERENCE/TRANSACTION ID**</label>
+                <input type="number" name="email" placeholder="UTR/REFERENCE/TRANSACTION ID**" class="m10 id">
+            </div>
+            <button class="download_now m20">Download Now</button>
+        </div>
+    </section>
+</body>
+
+</html>
