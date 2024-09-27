@@ -1,7 +1,11 @@
 body{
     background-color: #efc7c2;
     margin: 0;
-    font-family: Poppins;
+    .your-style {
+        font-family: 'Codec Cold Trial';
+        font-weight: bold;
+        font-style: normal;
+    }
 }
 
 nav {
@@ -14,6 +18,11 @@ nav {
     margin: auto;
   }
   .container1 {
+    font-family: 'BigCaslon ItalicSwash';
+    src: url('BigCaslon-ItalicSwash.woff2') format('woff2'),
+        url('BigCaslon-ItalicSwash.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -26,7 +35,11 @@ ol {
   a {
     position: relative;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    .your-style {
+        font-family: 'Codec Cold Trial';
+        font-weight: bold;
+        font-style: normal;
+    }
     color: #ffffff;
     font-size: 25px;
     letter-spacing: 0.5px;
@@ -154,7 +167,11 @@ body.showCart .container{
 .cartTab button{
     background-color: #E8BC0E;
     border: none;
-    font-family: Poppins;
+    .your-style {
+        font-family: 'Codec Cold Trial';
+        font-weight: bold;
+        font-style: normal;
+    }
     font-weight: 1000;
     cursor: pointer;
 }

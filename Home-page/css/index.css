@@ -303,7 +303,11 @@ nav {
   a {
     position: relative;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    .your-style {
+    font-family: 'Codec Cold Trial';
+    font-weight: bold;
+    font-style: normal;
+}
     color: #ffffff;
     font-size: 25px;
     letter-spacing: 0.5px;

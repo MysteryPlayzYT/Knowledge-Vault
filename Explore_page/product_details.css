@@ -1,5 +1,12 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'BigCaslon ItalicSwash';
+    src: url('BigCaslon-ItalicSwash.woff2') format('woff2'),
+        url('BigCaslon-ItalicSwash.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+    color: rgb(44, 43, 43);
+    overflow: hidden;
+    background-color: #efc7c2;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -27,7 +34,11 @@ ol {
   a {
     position: relative;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    .your-style {
+    font-family: 'Codec Cold Trial';
+    font-weight: bold;
+    font-style: normal;
+}
     color: #ffffff;
     font-size: 25px;
     letter-spacing: 0.5px;
