@@ -1,7 +1,71 @@
 body{
+    background-color: #efc7c2;
     margin: 0;
     font-family: Poppins;
 }
+
+nav {
+    height: 10vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .container1 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+ol {
+    list-style-type: none;
+    display: flex;
+}
+.bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(/images/space.jpg) no-repeat fixed center;
+    background-size: cover;
+    animation: scaling 60s linear infinite;
+}
+  a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  a:before,
+  a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #e9a5dd;
+    transition: 0.5s;
+  }
+  a:after {
+    left: 0;
+    bottom: -10px;
+  }
+  a:before {
+    right: 0;
+    top: -10px;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+  a:hover:after,
+  a:hover:before {
+    width: 100%;
+  }
 .container{
     width: 900px;
     margin: auto;
