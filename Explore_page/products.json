@@ -1,45 +1,45 @@
 [
     {
         "id": 1,
-        "name":" It starts with Us",
+        "name":" How To Read a Book",
         "price": 200,
-        "image": "image/It Starts with us.jpg"
+        "image": "image/How To Read a Book.jpg"
     },
     {
         "id": 2,
-        "name":" It Ends with Us",
+        "name":" Atomic Habits",
         "price": 250,
-        "image": "image/It ends with us.jpg"
+        "image": "image/Atomic Habits.jpg"
     },
     {
         "id": 3,
-        "name":"BEATING THE STREET ",
+        "name":"Jake and the Never Land Pirates ",
         "price": 290,
-        "image": "image/BEATING THE STREET.jpg"
+        "image": "image/Jake and the Never Land Pirates.jpg"
     },
     {
         "id": 4,
-        "name":" Better Small talk ",
+        "name":" Ice Age ",
         "price": 200,
-        "image": "image/Better Small Talk.jpg"
+        "image": "image/Ice Age.jpg"
     },
     {
         "id": 5,
-        "name":" Data Structure and Algorithmic Thinking with Python ",
+        "name":" Harry Potter And The Sorcerer's stone",
         "price": 300,
-        "image": "image/Data Structure and Algorithmic Thinking with Python.jpg"
+        "image": "image/Harry Potter And The Sorcerer's stone.jpg"
     },
     {
         "id": 6,
-        "name":" Ikigai ",
+        "name":"The Chronicles of Narnia ",
         "price": 200,
-        "image": "image/Ikigai.jfif"
+        "image": "image/The Chronicles of Narnia.jpg"
     },
     {
         "id": 7,
-        "name":" Python Programming ",
+        "name":" Chanakya neeti ",
         "price": 200,
-        "image": "image/Python Programming.jpg"
+        "image": "image/Chanakya neeti.jpg"
     },
     {
         "id": 8,
@@ -73,231 +73,231 @@
     },
     {
         "id": 13,
-        "name":"Twisted LOVE ",
+        "name":"Attitude is Everything change your attitude change your life! ",
         "price": 300,
-        "image": "image/Twisted LOVE.jpg"
+        "image": "image/Attitude is Everything change your attitude change your life!.jpg"
     },
     {
         "id": 14,
-        "name":" ",
+        "name":"13 Reasons Why",
         "price": 200,
-        "image": ""
+        "image": "image/13 Reasons Why.jpg"
     },
     {
         "id": 15,
-        "name":" ",
+        "name":"The 4-Hour Work Week ",
         "price": 200,
-        "image": ""
+        "image": "image/The 4-Hour Work Week.jpg"
     },
     {
         "id": 16,
-        "name":" ",
+        "name":"Think & Grow Rich ",
         "price": 200,
-        "image": ""
+        "image": "image/Think & Grow Rich.jpg"
     },
     {
         "id": 17,
-        "name":" ",
+        "name":"The Power of Now ",
         "price": 200,
-        "image": ""
+        "image": "image/The Power of Now.jpg"
     },
     {
         "id": 18,
-        "name":" ",
+        "name":"The Psychology of Money ",
         "price": 200,
-        "image": ""
+        "image": "image/The Psychology of Money.jpg"
     },
     {
         "id": 19,
-        "name":" ",
+        "name":" The 5 AM Club ",
         "price": 200,
-        "image": ""
+        "image": "image/The 5 AM Club.jpg"
     },
     {
         "id": 20,
-        "name":" ",
+        "name":"The 42 Laws of Power",
         "price": 200,
-        "image": ""
+        "image": "image/The 42 Laws of Power.jpg"
     },
     {
         "id": 21,
-        "name":" ",
+        "name":" Stillness is the Key ",
         "price": 200,
-        "image": ""
+        "image": "image/Stillness is the Key.jpg"
     }, 
     {
         "id": 22,
-        "name":" ",
+        "name":" ReWork ",
         "price": 200,
-        "image": ""
+        "image": "image/ReWork.jpg"
     },
     {
         "id": 23,
-        "name":" ",
+        "name":" Man's Search For Meaning",
         "price": 200,
-        "image": ""
+        "image": "image/Man's Search For Meaning.jpg"
     },
     {
         "id": 24,
-        "name":" ",
+        "name":" Lear to Earn",
         "price": 200,
-        "image": ""
+        "image": "image/Lear to Earn.jpg"
     },
     {
         "id": 25,
-        "name":" ",
+        "name":"Ikigai ",
         "price": 200,
-        "image": ""
+        "image": "image/Ikigai.jfif"
     },
     {
         "id": 26,
-        "name":" ",
+        "name":" How Will You Measure your Life",
         "price": 200,
-        "image": ""
+        "image": "image/How Will You Measure your Life.jpg"
     },
     {
         "id": 27,
-        "name":" ",
+        "name":" How to Talk to Anyone",
         "price": 200,
-        "image": ""
+        "image": "image/How to Talk to Anyone.jpg"
     },
     {
         "id": 28,
-        "name":" ",
+        "name":" GIVE & TAKE",
         "price": 200,
-        "image": ""
+        "image": "image/GIVE & TAKE.jpg"
     },
     {
         "id": 29,
-        "name":" ",
+        "name":"MINDSET ",
         "price": 200,
-        "image": ""
+        "image": "image/MINDSET.jpg"
     },
     {
         "id": 30,
-        "name":" ",
+        "name":"It Starts with us ",
         "price": 200,
-        "image": ""
+        "image": "image/It Starts with us.jpg"
     },
     {
         "id": 31,
-        "name":" ",
+        "name":" It ends with us",
         "price": 200,
-        "image": ""
+        "image": "image/It ends with us.jpg"
     },
     {
         "id": 32,
-        "name":" ",
+        "name":"Dont trust your gut ",
         "price": 200,
-        "image": ""
+        "image": "image/Dont trust your gut.jpg"
     },
     {
         "id": 33,
-        "name":" ",
+        "name":"Factfulness ",
         "price": 200,
-        "image": ""
+        "image": "image/Factfulness.jpg"
     },
     {
         "id": 34,
-        "name":" ",
+        "name":" 12 Rules for Life",
         "price": 200,
-        "image": ""
+        "image": "image/12 Rules for Life.jpg"
     },
     {
         "id": 35,
-        "name":" ",
+        "name":" BEATING THE STREET",
         "price": 200,
-        "image": ""
+        "image": "image/BEATING THE STREET.jpg"
     },
     {
         "id": 36,
-        "name":" ",
+        "name":" Quiet",
         "price": 200,
-        "image": ""
+        "image": "image/Quiet.jpg"
     },
     {
         "id": 37,
-        "name":" ",
+        "name":"Sapiens (L) ",
         "price": 200,
-        "image": ""
+        "image": "image/Sapiens (L).jpg"
     },
     {
         "id": 38,
-        "name":" ",
+        "name":"Outliers ",
         "price": 200,
-        "image": ""
+        "image": "image/Outliers.jpg"
     },
     {
         "id": 39,
-        "name":" ",
+        "name":"Better Small talk ",
         "price": 200,
-        "image": ""
+        "image": "image/Better Small talk.jpg"
     },
     {
         "id": 40,
-        "name":" ",
+        "name":"LINCHPIN ",
         "price": 200,
-        "image": ""
+        "image": "image/LINCHPIN.jpg"
     },
     {
         "id": 41,
-        "name":" ",
+        "name":" Twisted LOVE",
         "price": 200,
-        "image": ""
+        "image": "image/Twisted LOVE.jpg"
     },
     {
         "id": 42,
-        "name":" ",
+        "name":"The Alchemist ",
         "price": 200,
-        "image": ""
+        "image": "image/The Alchemist.jpg"
     },
     {
         "id": 43,
-        "name":" ",
+        "name":" Mr. Lemoncellos Library",
         "price": 200,
-        "image": ""
+        "image": "image/Mr. Lemoncellos Library.jpg"
     },
     {
         "id": 44,
-        "name":" ",
+        "name":" Quantum Physics",
         "price": 200,
-        "image": ""
+        "image": "image/Quantum Physics.jpg"
     },
     {
         "id": 45,
-        "name":" ",
+        "name":" Data Structure and Algorithmic Thinking with Python",
         "price": 200,
-        "image": ""
+        "image": "image/Data Structure and Algorithmic Thinking with Python.jpg"
     },
     {
         "id": 46,
-        "name":" ",
+        "name":"Python Programming ",
         "price": 200,
-        "image": ""
+        "image": "image/Python Programming.jpg"
     },
     {
         "id": 47,
-        "name":" ",
+        "name":"The greater secret in the world ",
         "price": 200,
-        "image": ""
+        "image": "image/The greater secret in the world.jpg"
     },
     {
         "id": 48,
-        "name":" ",
+        "name":"The Exorcist ",
         "price": 200,
-        "image": ""
+        "image": "image/The Exorcist.jpg"
     },
     {
         "id": 49,
-        "name":" ",
+        "name":"Ghostland ",
         "price": 200,
-        "image": ""
+        "image": "image/Ghostland.jpg"
     },
     {
         "id": 50,
-        "name":" ",
+        "name":" Cinderella",
         "price": 200,
-        "image": ""
+        "image": "image/Cinderella.jpg"
     }
 
 
