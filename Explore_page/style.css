@@ -216,6 +216,43 @@ body.showCart .container{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px; /* Adjust as needed */
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #007bff; /* Change to your theme color */
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Change to your theme color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #218838; /* Darker shade for hover effect */
+}
+
+
 
 
 /* mobile */

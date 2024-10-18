@@ -7,7 +7,6 @@ let closeCart = document.querySelector('.close');
 let products = [];
 let cart = [];
 
-// Toggle cart view
 iconCart.addEventListener('click', () => {
     body.classList.toggle('showCart');
 });
@@ -45,11 +44,7 @@ listProductHTML.addEventListener('click', (event) => {
     // Handle Image Click - Redirect to another page
     if (positionClick.classList.contains('product-image')) {
         let id_product = positionClick.parentElement.dataset.id;
-        
-        // Store product ID in localStorage or use query string
         localStorage.setItem('selectedProduct', id_product);
-        
-        // Redirect to product details page
         window.location.href = `product-details.html?id=${id_product}`;
     }
 });
@@ -68,7 +63,7 @@ const addToCart = (product_id) => {
             quantity: 1
         });
     } else {
-        cart[positionThisProductInCart].quantity = cart[positionThisProductInCart].quantity + 1;
+        cart[positionThisProductInCart].quantity += 1;
     }
     addCartToHTML();
     addCartToMemory();
@@ -123,7 +118,6 @@ listCartHTML.addEventListener('click', (event) => {
 const changeQuantityCart = (product_id, type) => {
     let positionItemInCart = cart.findIndex((value) => value.product_id == product_id);
     if (positionItemInCart >= 0) {
-        let info = cart[positionItemInCart];
         if (type === 'plus') {
             cart[positionItemInCart].quantity += 1;
         } else {
@@ -170,3 +164,34 @@ fetch('products.json')
             // Add more product details as needed
         }
     });
+
+// Perform search function
+function performSearch() {
+    const query = document.getElementById('search').value.toLowerCase();
+    const resultsDiv = document.querySelector('.listProduct');
+
+    // Clear previous results
+    resultsDiv.innerHTML = '';
+
+    // Filter results based on query from the actual products
+    const results = products.filter(product => 
+        product.name.toLowerCase().includes(query)
+    );
+
+    // Display results
+    if (results.length > 0) {
+        results.forEach(product => {
+            const productItem = document.createElement('div');
+            productItem.dataset.id = product.id; // Set the data-id for cart functionality
+            productItem.classList.add('item');
+            productItem.innerHTML = `
+                <img src="${product.image}" alt="${product.name}" class="product-image">
+                <h2>${product.name}</h2>
+                <div class="price">RS.${product.price}</div>
+                <button class="addCart">Add To Cart</button>`;
+            resultsDiv.appendChild(productItem);
+        });
+    } else {
+        resultsDiv.innerHTML = '<p>No results found.</p>';
+    }
+}

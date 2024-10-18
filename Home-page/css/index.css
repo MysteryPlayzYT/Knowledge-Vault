@@ -13,9 +13,11 @@ body {
     font-weight: normal;
     font-display: swap;
     color: rgb(44, 43, 43);
-    overflow: hidden;
     background-color: #efc7c2;
+    overflow-y: auto; 
+    min-height: 100vh; 
 }
+
 
 .bg-img {
     position: fixed;

@@ -7,44 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="">
+<body>
     <span class="bg-img"></span>
     <img src="" alt="" class="">
     <div class="container1">
         <header>
             <nav>
-                <a href="./Explore Page/Explore page.html">Knowledge Vault</a>
+                <a href="/index.html">Knowledge Vault</a>
                 <ol>
-                    <li><a href="/Main-Pages/Login_Page.html">Login/Signup</a></li>
-                    <li><a href="./Main-Pages/About-us.html">About</a></li>
-                    <li><a href="./Explore Page/Explore page.html">Explore Books</a></li>
-                    <li><a href="./payment_gateway/Select_option.html">Donate ❤️</a></li>
-                    <li><a href="/payment_gateway/Select_option.html">Contact</a></li>
+                    <li><a href="/Login_Page/Login/login.html">Login/Signup</a></li>
+                    <li><a href="/About_us/About-us.html">About</a></li>
+                    <li><a href="./Explore-Page.html">Explore Books</a></li>
+                    <li><a href="/payment_gateway/Select_option.html">Donate ❤️</a></li>
+                    <li><a href="/Contact_us/Contact-us.html">Contact</a></li>
                 </ol>
             </nav>
         </header>
-    <div class="container">
-        <header>
-            <div class="title">BOOKS LIST</div>
-            <div class="icon-cart">
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
-                </svg>
-                <span>0</span>
-            </div>
-        </header>
-        <div class="listProduct">
+        
+        <div class="container">
+            <header>
+                <div class="title">BOOKS LIST</div>
+                <div class="icon-cart">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                    </svg>
+                    <span>0</span>
+                </div>
+            </header>
 
+
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search for books..." />
+                <button onclick="performSearch()">Search</button>
+            </div>
+
+            <div class="listProduct"></div>
         </div>
-    </div>
-    <div class="cartTab">
-        <h1>Shopping Cart</h1>
-        <div class="listCart">
-            
-        </div>
-        <div class="btn">
-            <button class="close">CLOSE</button>
+        
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart"></div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
                 <button class="checkOut"><a href="/payment_gateway/Select_option.html">Check Out</a></button>
+            </div>
         </div>
     </div>
 
