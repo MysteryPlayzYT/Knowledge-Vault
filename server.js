@@ -6,12 +6,11 @@ const bcrypt = require('bcrypt');
 const app = express();
 const port = 3000;
 
-// Middleware
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// PostgreSQL client setup
+// Connecting to PostgreSQL 
 const client = new Client({
     user: 'postgres',
     host: 'localhost',
@@ -24,20 +23,20 @@ client.connect()
     .then(() => console.log('Connected to PostgreSQL database'))
     .catch(err => console.error('Connection error', err.stack));
 
-// Register route
+// Route to register
 app.post('/api/register', async (req, res) => {
     const { name, email, password, password2 } = req.body;
 
-    // Check if passwords match
+    // Checking If the password is matching if matching it allows the user
     if (password !== password2) {
         return res.status(400).send('Passwords do not match');
     }
 
     try {
-        // Hash the password
+
         const hashedPassword = await bcrypt.hash(password, 10);
 
-        // Insert user into the database
+        // It Insert the user into the database of postgreqsql
         await client.query(
             'INSERT INTO users(name, email, password) VALUES($1, $2, $3)',
             [name, email, hashedPassword]
@@ -54,7 +53,7 @@ app.post('/api/register', async (req, res) => {
     }
 });
 
-// Login route
+// Route to Login
 app.post('/api/login', async (req, res) => {
     const { email, password } = req.body;
 
@@ -78,7 +77,7 @@ app.post('/api/login', async (req, res) => {
     }
 });
 
-// Start the server
+// to start the server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
